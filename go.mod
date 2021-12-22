@@ -1,4 +1,4 @@
-module rabbitmqout
+module github.com/fengliuxi/rabbitmqout
 
 go 1.17
 
