@@ -151,7 +151,7 @@ func (out *rabbitmqOutput) Publish(_ context.Context, batch publisher.Batch) err
 }
 
 func (out *rabbitmqOutput) String() string {
-	return "rabbitmq"
+	return "RabbitMQ"
 }
 
 func (out *rabbitmqOutput) send(data []byte) error {
